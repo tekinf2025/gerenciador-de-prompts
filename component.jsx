@@ -686,78 +686,97 @@ brapi.dev API para cotações da B3 (Bolsa de Valores)`,
     
     try {
       console.log('🔄 Iniciando sincronização do Supabase...');
+      console.log('📊 Configuração atual:', {
+        url: supabaseConfig.url,
+        keyLength: supabaseConfig.key?.length || 0
+      });
       
-      // Get categories
+      // Get categories with filter by user_id
       console.log('📂 Buscando categorias...');
-      const { data: categoriesData, error: categoriesError } = await client.from('categories').select();
+      const { data: categoriesData, error: categoriesError } = await client.from('categories').select('*');
       if (categoriesError) {
         console.error('❌ Erro ao buscar categorias:', categoriesError);
-        throw new Error(`Erro nas categorias: ${categoriesError.message || JSON.stringify(categoriesError)}`);
-      }
-      
-      if (categoriesData && categoriesData.length > 0) {
-        const mappedCategories = categoriesData.map(cat => ({
-          id: cat.id,
-          name: cat.name,
-          color: cat.color,
-          bgColor: cat.bg_color,
-          textColor: cat.text_color,
-          borderColor: cat.border_color
-        }));
-        setCategories(mappedCategories);
-        console.log('✅ Categorias sincronizadas:', mappedCategories.length);
+        console.error('🔍 Detalhes do erro:', {
+          message: categoriesError.message,
+          details: categoriesError.details,
+          hint: categoriesError.hint
+        });
       } else {
-        console.log('⚠️ Nenhuma categoria encontrada no Supabase');
+        console.log('📋 Categorias encontradas:', categoriesData);
+        if (categoriesData && categoriesData.length > 0) {
+          const mappedCategories = categoriesData.map(cat => ({
+            id: cat.id,
+            name: cat.name,
+            color: cat.color,
+            bgColor: cat.bg_color,
+            textColor: cat.text_color,
+            borderColor: cat.border_color
+          }));
+          setCategories(mappedCategories);
+          console.log('✅ Categorias sincronizadas:', mappedCategories.length);
+        } else {
+          console.log('⚠️ Nenhuma categoria encontrada no Supabase');
+        }
       }
 
-      // Get models
+      // Get models with filter by user_id
       console.log('🤖 Buscando modelos...');
-      const { data: modelsData, error: modelsError } = await client.from('models').select();
+      const { data: modelsData, error: modelsError } = await client.from('models').select('*');
       if (modelsError) {
         console.error('❌ Erro ao buscar modelos:', modelsError);
-        throw new Error(`Erro nos modelos: ${modelsError.message || JSON.stringify(modelsError)}`);
-      }
-      
-      if (modelsData && modelsData.length > 0) {
-        const mappedModels = modelsData.map(model => ({
-          id: model.id,
-          name: model.name,
-          iconName: model.icon_name || 'Code', // Usar iconName ao invés de icon
-          color: model.color,
-          bgColor: model.bg_color,
-          textColor: model.text_color,
-          borderColor: model.border_color
-        }));
-        setModels(mappedModels);
-        console.log('✅ Modelos sincronizados:', mappedModels.length);
+        console.error('🔍 Detalhes do erro:', {
+          message: modelsError.message,
+          details: modelsError.details,
+          hint: modelsError.hint
+        });
       } else {
-        console.log('⚠️ Nenhum modelo encontrado no Supabase');
+        console.log('📋 Modelos encontrados:', modelsData);
+        if (modelsData && modelsData.length > 0) {
+          const mappedModels = modelsData.map(model => ({
+            id: model.id,
+            name: model.name,
+            iconName: model.icon_name || 'Code',
+            color: model.color,
+            bgColor: model.bg_color,
+            textColor: model.text_color,
+            borderColor: model.border_color
+          }));
+          setModels(mappedModels);
+          console.log('✅ Modelos sincronizados:', mappedModels.length);
+        } else {
+          console.log('⚠️ Nenhum modelo encontrado no Supabase');
+        }
       }
 
-      // Get prompts
+      // Get prompts with filter by user_id
       console.log('📝 Buscando prompts...');
-      const { data: promptsData, error: promptsError } = await client.from('prompts').select();
+      const { data: promptsData, error: promptsError } = await client.from('prompts').select('*');
       if (promptsError) {
         console.error('❌ Erro ao buscar prompts:', promptsError);
-        throw new Error(`Erro nos prompts: ${promptsError.message || JSON.stringify(promptsError)}`);
-      }
-      
-      if (promptsData && promptsData.length > 0) {
-        const mappedPrompts = promptsData.map(prompt => ({
-          id: prompt.id,
-          title: prompt.title,
-          description: prompt.description,
-          content: prompt.content,
-          category: prompt.category,
-          model: prompt.model,
-          createdAt: prompt.created_at,
-          liked: prompt.liked,
-          author: prompt.author
-        }));
-        setPrompts(mappedPrompts);
-        console.log('✅ Prompts sincronizados:', mappedPrompts.length);
+        console.error('🔍 Detalhes do erro:', {
+          message: promptsError.message,
+          details: promptsError.details,
+          hint: promptsError.hint
+        });
       } else {
-        console.log('⚠️ Nenhum prompt encontrado no Supabase');
+        console.log('📋 Prompts encontrados:', promptsData);
+        if (promptsData && promptsData.length > 0) {
+          const mappedPrompts = promptsData.map(prompt => ({
+            id: prompt.id,
+            title: prompt.title,
+            description: prompt.description,
+            content: prompt.content,
+            category: prompt.category,
+            model: prompt.model,
+            createdAt: prompt.created_at,
+            liked: prompt.liked || false,
+            author: prompt.author
+          }));
+          setPrompts(mappedPrompts);
+          console.log('✅ Prompts sincronizados:', mappedPrompts.length);
+        } else {
+          console.log('⚠️ Nenhum prompt encontrado no Supabase');
+        }
       }
 
       console.log('🎉 Sincronização do Supabase concluída com sucesso!');
@@ -800,7 +819,10 @@ brapi.dev API para cotações da B3 (Bolsa de Valores)`,
             url: supabaseConfig.url,
             keyLength: supabaseConfig.key?.length || 0
           });
-          console.log('🎯 Teste automático desabilitado - Use os botões Push/Pull conforme necessário');
+          
+          // Sincronizar dados automaticamente na inicialização
+          console.log('🔄 Sincronizando dados do Supabase na inicialização...');
+          syncFromSupabase();
         } else {
           console.log('❌ Falha na conexão automática com Supabase');
           console.error('🔍 Verifique as configurações:', {
@@ -1334,6 +1356,23 @@ brapi.dev API para cotações da B3 (Bolsa de Valores)`,
               <span className="hidden sm:inline">Favoritos</span>
             </button>
             
+
+            {/* Botão de Sincronização Manual */}
+            {supabaseConnected && (
+              <button
+                onClick={syncFromSupabase}
+                disabled={syncStatus === 'syncing'}
+                className="bg-green-600 hover:bg-green-700 disabled:bg-gray-500 text-white px-3 py-1 rounded text-sm flex items-center gap-1 transition-colors"
+                title="Sincronizar dados do Supabase"
+              >
+                {syncStatus === 'syncing' ? (
+                  <div className="animate-spin"><Database size={14} /></div>
+                ) : (
+                  <Database size={14} />
+                )}
+                <span className="hidden sm:inline">Sincronizar</span>
+              </button>
+            )}
 
             <button
               onClick={() => setShowNewPrompt(true)}
