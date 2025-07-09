@@ -167,7 +167,7 @@ brapi.dev API para cota\xE7\xF5es da B3 (Bolsa de Valores)`,
   const [syncStatus, setSyncStatus] = useState("idle");
   const [lastSync, setLastSync] = useStoredState("last_sync", null);
   const [configForm, setConfigForm] = useState({ url: "", key: "" });
-  const [autoSync, setAutoSync] = useStoredState("auto_sync_enabled", true);
+  const [autoSync, setAutoSync] = useStoredState("auto_sync_enabled", false);
   const [newPrompt, setNewPrompt] = useState({
     title: "",
     description: "",
@@ -581,70 +581,91 @@ brapi.dev API para cota\xE7\xF5es da B3 (Bolsa de Valores)`,
     }
     try {
       console.log("\u{1F504} Iniciando sincroniza\xE7\xE3o do Supabase...");
+      console.log("\u{1F4CA} Configura\xE7\xE3o atual:", {
+        url: supabaseConfig.url,
+        keyLength: supabaseConfig.key?.length || 0
+      });
       console.log("\u{1F4C2} Buscando categorias...");
-      const { data: categoriesData, error: categoriesError } = await client.from("categories").select();
+      const { data: categoriesData, error: categoriesError } = await client.from("categories").select("*");
       if (categoriesError) {
         console.error("\u274C Erro ao buscar categorias:", categoriesError);
-        throw new Error(`Erro nas categorias: ${categoriesError.message || JSON.stringify(categoriesError)}`);
-      }
-      if (categoriesData && categoriesData.length > 0) {
-        const mappedCategories = categoriesData.map((cat) => ({
-          id: cat.id,
-          name: cat.name,
-          color: cat.color,
-          bgColor: cat.bg_color,
-          textColor: cat.text_color,
-          borderColor: cat.border_color
-        }));
-        setCategories(mappedCategories);
-        console.log("\u2705 Categorias sincronizadas:", mappedCategories.length);
+        console.error("\u{1F50D} Detalhes do erro:", {
+          message: categoriesError.message,
+          details: categoriesError.details,
+          hint: categoriesError.hint
+        });
       } else {
-        console.log("\u26A0\uFE0F Nenhuma categoria encontrada no Supabase");
+        console.log("\u{1F4CB} Categorias encontradas:", categoriesData);
+        if (categoriesData && categoriesData.length > 0) {
+          const mappedCategories = categoriesData.map((cat) => ({
+            id: cat.id,
+            name: cat.name,
+            color: cat.color,
+            bgColor: cat.bg_color,
+            textColor: cat.text_color,
+            borderColor: cat.border_color
+          }));
+          setCategories(mappedCategories);
+          console.log("\u2705 Categorias sincronizadas:", mappedCategories.length);
+        } else {
+          console.log("\u26A0\uFE0F Nenhuma categoria encontrada no Supabase");
+        }
       }
       console.log("\u{1F916} Buscando modelos...");
-      const { data: modelsData, error: modelsError } = await client.from("models").select();
+      const { data: modelsData, error: modelsError } = await client.from("models").select("*");
       if (modelsError) {
         console.error("\u274C Erro ao buscar modelos:", modelsError);
-        throw new Error(`Erro nos modelos: ${modelsError.message || JSON.stringify(modelsError)}`);
-      }
-      if (modelsData && modelsData.length > 0) {
-        const mappedModels = modelsData.map((model) => ({
-          id: model.id,
-          name: model.name,
-          iconName: model.icon_name || "Code",
-          // Usar iconName ao invés de icon
-          color: model.color,
-          bgColor: model.bg_color,
-          textColor: model.text_color,
-          borderColor: model.border_color
-        }));
-        setModels(mappedModels);
-        console.log("\u2705 Modelos sincronizados:", mappedModels.length);
+        console.error("\u{1F50D} Detalhes do erro:", {
+          message: modelsError.message,
+          details: modelsError.details,
+          hint: modelsError.hint
+        });
       } else {
-        console.log("\u26A0\uFE0F Nenhum modelo encontrado no Supabase");
+        console.log("\u{1F4CB} Modelos encontrados:", modelsData);
+        if (modelsData && modelsData.length > 0) {
+          const mappedModels = modelsData.map((model) => ({
+            id: model.id,
+            name: model.name,
+            iconName: model.icon_name || "Code",
+            color: model.color,
+            bgColor: model.bg_color,
+            textColor: model.text_color,
+            borderColor: model.border_color
+          }));
+          setModels(mappedModels);
+          console.log("\u2705 Modelos sincronizados:", mappedModels.length);
+        } else {
+          console.log("\u26A0\uFE0F Nenhum modelo encontrado no Supabase");
+        }
       }
       console.log("\u{1F4DD} Buscando prompts...");
-      const { data: promptsData, error: promptsError } = await client.from("prompts").select();
+      const { data: promptsData, error: promptsError } = await client.from("prompts").select("*");
       if (promptsError) {
         console.error("\u274C Erro ao buscar prompts:", promptsError);
-        throw new Error(`Erro nos prompts: ${promptsError.message || JSON.stringify(promptsError)}`);
-      }
-      if (promptsData && promptsData.length > 0) {
-        const mappedPrompts = promptsData.map((prompt) => ({
-          id: prompt.id,
-          title: prompt.title,
-          description: prompt.description,
-          content: prompt.content,
-          category: prompt.category,
-          model: prompt.model,
-          createdAt: prompt.created_at,
-          liked: prompt.liked,
-          author: prompt.author
-        }));
-        setPrompts(mappedPrompts);
-        console.log("\u2705 Prompts sincronizados:", mappedPrompts.length);
+        console.error("\u{1F50D} Detalhes do erro:", {
+          message: promptsError.message,
+          details: promptsError.details,
+          hint: promptsError.hint
+        });
       } else {
-        console.log("\u26A0\uFE0F Nenhum prompt encontrado no Supabase");
+        console.log("\u{1F4CB} Prompts encontrados:", promptsData);
+        if (promptsData && promptsData.length > 0) {
+          const mappedPrompts = promptsData.map((prompt) => ({
+            id: prompt.id,
+            title: prompt.title,
+            description: prompt.description,
+            content: prompt.content,
+            category: prompt.category,
+            model: prompt.model,
+            createdAt: prompt.created_at,
+            liked: prompt.liked || false,
+            author: prompt.author
+          }));
+          setPrompts(mappedPrompts);
+          console.log("\u2705 Prompts sincronizados:", mappedPrompts.length);
+        } else {
+          console.log("\u26A0\uFE0F Nenhum prompt encontrado no Supabase");
+        }
       }
       console.log("\u{1F389} Sincroniza\xE7\xE3o do Supabase conclu\xEDda com sucesso!");
       setLastSync((/* @__PURE__ */ new Date()).toISOString());
@@ -680,7 +701,7 @@ brapi.dev API para cota\xE7\xF5es da B3 (Bolsa de Valores)`,
             url: supabaseConfig.url,
             keyLength: supabaseConfig.key?.length || 0
           });
-          console.log("\u{1F3AF} Teste autom\xE1tico desabilitado - Use os bot\xF5es Push/Pull conforme necess\xE1rio");
+          console.log('\u2139\uFE0F Use o bot\xE3o "Sincronizar" para buscar dados do Supabase');
         } else {
           console.log("\u274C Falha na conex\xE3o autom\xE1tica com Supabase");
           console.error("\u{1F50D} Verifique as configura\xE7\xF5es:", {
@@ -690,7 +711,7 @@ brapi.dev API para cota\xE7\xF5es da B3 (Bolsa de Valores)`,
         }
       });
     }
-  }, [supabaseConfig]);
+  }, []);
   const getCategoryCount = (categoryName) => {
     return prompts.filter((p) => p.category === categoryName).length;
   };
@@ -1093,6 +1114,16 @@ brapi.dev API para cota\xE7\xF5es da B3 (Bolsa de Valores)`,
       },
       /* @__PURE__ */ React.createElement(Heart, { size: 14, fill: showFavoritesOnly ? "currentColor" : "none" }),
       /* @__PURE__ */ React.createElement("span", { className: "hidden sm:inline" }, "Favoritos")
+    ), supabaseConnected && /* @__PURE__ */ React.createElement(
+      "button",
+      {
+        onClick: syncFromSupabase,
+        disabled: syncStatus === "syncing",
+        className: "bg-green-600 hover:bg-green-700 disabled:bg-gray-500 text-white px-3 py-1 rounded text-sm flex items-center gap-1 transition-colors",
+        title: "Sincronizar dados do Supabase"
+      },
+      syncStatus === "syncing" ? /* @__PURE__ */ React.createElement("div", { className: "animate-spin" }, /* @__PURE__ */ React.createElement(Database, { size: 14 })) : /* @__PURE__ */ React.createElement(Database, { size: 14 }),
+      /* @__PURE__ */ React.createElement("span", { className: "hidden sm:inline" }, "Sincronizar")
     ), /* @__PURE__ */ React.createElement(
       "button",
       {
@@ -1232,7 +1263,7 @@ brapi.dev API para cota\xE7\xF5es da B3 (Bolsa de Valores)`,
       },
       /* @__PURE__ */ React.createElement("span", null, "\u{1F5D1}\uFE0F"),
       "Excluir"
-    ))))))), /* @__PURE__ */ React.createElement("div", { className: "flex-1 p-4 md:p-6" }, /* @__PURE__ */ React.createElement("div", { className: "mb-6" }, /* @__PURE__ */ React.createElement("h2", { className: "text-xl font-semibold mb-2" }, showFavoritesOnly ? `Prompts Favoritos (${filteredPrompts.length})` : `Meus Prompts (${filteredPrompts.length})`), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-4 mb-2" }, copyFeedback && /* @__PURE__ */ React.createElement("div", { className: "bg-green-600 text-white px-3 py-1 rounded text-sm inline-block" }, copyFeedback), supabaseConnected ? /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2 text-sm text-gray-400" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-1" }, /* @__PURE__ */ React.createElement(Wifi, { size: 12, className: "text-green-400" }), /* @__PURE__ */ React.createElement("span", null, "Conectado ao Supabase")), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-1" }, autoSync ? /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { className: "w-2 h-2 bg-green-400 rounded-full animate-pulse" }), /* @__PURE__ */ React.createElement("span", { className: "text-xs" }, "Sincroniza\xE7\xE3o autom\xE1tica")) : /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { className: "w-2 h-2 bg-yellow-400 rounded-full" }), /* @__PURE__ */ React.createElement("span", { className: "text-xs" }, "Sincroniza\xE7\xE3o manual"))), lastSync && /* @__PURE__ */ React.createElement("span", { className: "text-xs" }, "\u2022 \xDAltima sync: ", new Date(lastSync).toLocaleString())) : /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2 text-sm text-gray-400" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-1" }, /* @__PURE__ */ React.createElement(WifiOff, { size: 12, className: "text-orange-400" }), /* @__PURE__ */ React.createElement("span", null, "Conectando ao Supabase..."))), syncStatus === "success" && /* @__PURE__ */ React.createElement("div", { className: "bg-green-600 text-white px-3 py-1 rounded text-sm inline-block" }, "Sincroniza\xE7\xE3o conclu\xEDda!"), syncStatus === "error" && /* @__PURE__ */ React.createElement("div", { className: "bg-red-600 text-white px-3 py-1 rounded text-sm inline-block" }, "Erro na sincroniza\xE7\xE3o - Verifique o console"))), /* @__PURE__ */ React.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-5 relative auto-rows-fr" }, filteredPrompts.map((prompt) => /* @__PURE__ */ React.createElement(PromptCard, { key: prompt.id, prompt }))), filteredPrompts.length === 0 && /* @__PURE__ */ React.createElement("div", { className: "text-center py-12" }, /* @__PURE__ */ React.createElement("p", { className: "text-gray-400" }, showFavoritesOnly ? "Nenhum prompt favorito encontrado" : "Nenhum prompt encontrado")))),
+    ))))))), /* @__PURE__ */ React.createElement("div", { className: "flex-1 p-4 md:p-6" }, /* @__PURE__ */ React.createElement("div", { className: "mb-6" }, /* @__PURE__ */ React.createElement("h2", { className: "text-xl font-semibold mb-2" }, showFavoritesOnly ? `Prompts Favoritos (${filteredPrompts.length})` : `Meus Prompts (${filteredPrompts.length})`), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-4 mb-2" }, copyFeedback && /* @__PURE__ */ React.createElement("div", { className: "bg-green-600 text-white px-3 py-1 rounded text-sm inline-block" }, copyFeedback), supabaseConnected ? /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2 text-sm text-gray-400" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-1" }, /* @__PURE__ */ React.createElement(Wifi, { size: 12, className: "text-green-400" }), /* @__PURE__ */ React.createElement("span", null, "Conectado ao Supabase")), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-1" }, /* @__PURE__ */ React.createElement("div", { className: "w-2 h-2 bg-blue-400 rounded-full" }), /* @__PURE__ */ React.createElement("span", { className: "text-xs" }, 'Sincroniza\xE7\xE3o manual - Use o bot\xE3o "Sincronizar"')), lastSync && /* @__PURE__ */ React.createElement("span", { className: "text-xs" }, "\u2022 \xDAltima sync: ", new Date(lastSync).toLocaleString())) : /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2 text-sm text-gray-400" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-1" }, /* @__PURE__ */ React.createElement(WifiOff, { size: 12, className: "text-orange-400" }), /* @__PURE__ */ React.createElement("span", null, "Desconectado do Supabase"))), syncStatus === "success" && /* @__PURE__ */ React.createElement("div", { className: "bg-green-600 text-white px-3 py-1 rounded text-sm inline-block" }, "Sincroniza\xE7\xE3o conclu\xEDda!"), syncStatus === "error" && /* @__PURE__ */ React.createElement("div", { className: "bg-red-600 text-white px-3 py-1 rounded text-sm inline-block" }, "Erro na sincroniza\xE7\xE3o - Verifique o console"))), /* @__PURE__ */ React.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-5 relative auto-rows-fr" }, filteredPrompts.map((prompt) => /* @__PURE__ */ React.createElement(PromptCard, { key: prompt.id, prompt }))), filteredPrompts.length === 0 && /* @__PURE__ */ React.createElement("div", { className: "text-center py-12" }, /* @__PURE__ */ React.createElement("p", { className: "text-gray-400" }, showFavoritesOnly ? "Nenhum prompt favorito encontrado" : "Nenhum prompt encontrado")))),
     showNewPrompt && /* @__PURE__ */ React.createElement("div", { className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50" }, /* @__PURE__ */ React.createElement("div", { className: "bg-gray-800 rounded-lg p-6 w-full max-w-2xl" }, /* @__PURE__ */ React.createElement("h3", { className: "text-lg font-semibold mb-4" }, editingPrompt ? "Editar Prompt" : "Novo Prompt"), /* @__PURE__ */ React.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("label", { className: "block text-sm font-medium mb-1" }, "T\xEDtulo"), /* @__PURE__ */ React.createElement(
       "input",
       {
