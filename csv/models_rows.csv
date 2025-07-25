@@ -1,0 +1,7 @@
+id,name,color,bg_color,text_color,border_color,icon_name,user_id,created_at,updated_at
+MOD0001,BASE44,yellow,bg-yellow-500/20,text-yellow-400,border-yellow-500/50,Code,user_default,2025-07-09 15:24:37.626434+00,2025-07-09 15:24:37.626434+00
+MOD0002,CANVA,purple,bg-purple-500/20,text-purple-400,border-purple-500/50,Code,user_default,2025-07-09 15:24:37.626434+00,2025-07-09 15:24:37.626434+00
+MOD0003,CHATGPT,pink,bg-pink-500/20,text-pink-400,border-pink-500/50,Code,user_default,2025-07-09 15:24:37.626434+00,2025-07-09 15:24:37.626434+00
+MOD0004,HATCH.CANVAS,red,bg-red-500/20,text-red-400,border-red-500/50,Code,user_default,2025-07-09 15:24:37.626434+00,2025-07-09 15:24:37.626434+00
+MOD0005,LOVABLE,rose,bg-rose-500/20,text-rose-400,border-rose-500/50,Code,user_default,2025-07-09 15:24:37.626434+00,2025-07-09 15:24:37.626434+00
+MOD0006,SUPABASE,blue,bg-blue-500/20,text-blue-400,border-blue-500/50,Code,user_default,2025-07-09 15:24:37.626434+00,2025-07-09 15:24:37.626434+00

